@@ -58,9 +58,9 @@ function square(arr) {
 //
 
 function fullName(arr) {
-    listFullName=[];
+    let listFullName=[];
   let getFullName =arr.map(value=>{
-    push.listFullName(value.firstName+" "+value.lastName)
+    listFullName.push(value.firstName+" "+value.lastName)
   })
     return listFullName; 
     
