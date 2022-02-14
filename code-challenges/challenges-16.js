@@ -51,7 +51,6 @@ const detectFace = (arr) => {
 //
 // Ex :-
 // Input <= "coding" output =>"cdn"
-
 const eveCharacter = (str) => {
     let arrayAfterJoin = [];
     let arrayDivied = str.split('')
